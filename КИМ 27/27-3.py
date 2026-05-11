@@ -99,7 +99,6 @@ for i in range(len(clusters)):
             bestcentroids[i] = p1
 Px = (sum([x for x,y in bestcentroids]) / len(clusters)) * 10000
 Py = (sum([y for x,y in bestcentroids]) / len(clusters)) * 10000
-Ps = [len(clusters)/9 for cluster in clusters]
 print(Px,Py)
 
 f = open('27-5-B.txt')
@@ -129,7 +128,6 @@ for i in range(len(clusters)):
             bestcentroids[i] = p1
 Px = (sum([x for x,y in bestcentroids]) / len(clusters)) * 10000
 Py = (sum([y for x,y in bestcentroids]) / len(clusters)) * 10000
-Ps = [len(clusters)/9 for cluster in clusters]
 print(Px,Py)
 
 from turtle import*
